@@ -1,7 +1,8 @@
 var app = new Vue ({
     el: '#app',
     data: {
-        message: 'hello'
+        message: 'helllo',
+        message2: 'world'
     }
 })
 
