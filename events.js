@@ -1,4 +1,4 @@
-
+ 
 
 const app = Vue.createApp({
     data() {
@@ -18,6 +18,9 @@ const app = Vue.createApp({
         addReduce(num) {
             this.counter = this.counter - num;
             // this.counter--;
+        },
+        resetInput() {
+          this.name='';
         }
     }
   });
